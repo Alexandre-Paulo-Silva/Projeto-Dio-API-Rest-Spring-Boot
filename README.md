@@ -1,6 +1,6 @@
 # Projeto-Dio-API-Rest-Spring-Boot
 
-# Para Mais Detalhes do projeto va ate o repositorio original: [DevCenter](https://github.com/andrelugomes/digital-innovation-one/tree/master/cities-api) 
+# Para Mais Detalhes do projeto va ate o repositorio original: [github.com/andrelugomes/digital-innovation-one/tree/master/cities-api](https://github.com/andrelugomes/digital-innovation-one/tree/master/cities-api) 
 
 
 # Cities API
