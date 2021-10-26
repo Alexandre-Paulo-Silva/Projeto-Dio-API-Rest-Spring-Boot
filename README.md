@@ -9,7 +9,7 @@
 * Java 8
 * Docker
 * IntelliJ Community
-* Heroku CLI
+
 
 ## DataBase
 
