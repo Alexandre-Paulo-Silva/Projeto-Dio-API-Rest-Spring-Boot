@@ -1,7 +1,6 @@
 # Projeto-Dio-API-Rest-Spring-Boot
 
-# Para Mais Detalhes do projeto va ate o repositorio original: 
-
+# Para Mais Detalhes do projeto va ate o repositorio original: [DevCenter](https://github.com/andrelugomes/digital-innovation-one/tree/master/cities-api) 
 
 
 # Cities API
@@ -98,7 +97,7 @@ select earth_distance(
 * [JsonTypes](https://github.com/vladmihalcea/hibernate-types)
 * [UserType](https://docs.jboss.org/hibernate/orm/3.5/api/org/hibernate/usertype/UserType.html)
 
-## Heroku
+
 
 * [DevCenter](https://devcenter.heroku.com/articles/getting-started-with-gradle-on-heroku)
 
