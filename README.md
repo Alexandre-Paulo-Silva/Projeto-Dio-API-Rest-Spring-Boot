@@ -80,9 +80,12 @@ CREATE EXTENSION earthdistance;
     
 ```
 
+
 ### Configuracão conexao com PostgreSQL
 
 ### application.properties
+
+```shell script
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/cities
 spring.datasource.username=postgres_user_city
@@ -90,6 +93,7 @@ spring.datasource.password=super_password
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 
+```
 
 * [Postgres Earth distance](https://www.postgresql.org/docs/current/earthdistance.html)
 * [earthdistance--1.0--1.1.sql](https://github.com/postgres/postgres/blob/master/contrib/earthdistance/earthdistance--1.0--1.1.sql)
