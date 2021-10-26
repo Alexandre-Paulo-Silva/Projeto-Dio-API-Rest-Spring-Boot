@@ -77,7 +77,18 @@ CREATE EXTENSION earthdistance;
     testImplementation "org.testcontainers:junit-jupiter:1.16.0"
     implementation ('org.springframework.boot:spring-boot-starter-data-jdbc')
     testImplementation "org.testcontainers:spock:1.16.0"//no version specified
+    
 ```
+
+### Configuracão conexao com PostgreSQL
+
+### application.properties
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/cities
+spring.datasource.username=postgres_user_city
+spring.datasource.password=super_password
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
 
 
 * [Postgres Earth distance](https://www.postgresql.org/docs/current/earthdistance.html)
