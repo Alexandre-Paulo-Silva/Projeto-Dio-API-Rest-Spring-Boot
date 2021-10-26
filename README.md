@@ -70,13 +70,13 @@ CREATE EXTENSION earthdistance;
 	testImplementation "org.testcontainers:testcontainers:1.16.0"
 	implementation platform('org.testcontainers:testcontainers-bom:1.16.0') //import bom
 	testImplementation('org.testcontainers:postgresql:1.16.0')
-    testImplementation('io.mockk:mockk:1.10.4')
+        testImplementation('io.mockk:mockk:1.10.4')
 	testImplementation('org.ninja-squad:springmockk:3.0.1')
-    testImplementation('org.testcontainers:testcontainers:1.16.0')
+        testImplementation('org.testcontainers:testcontainers:1.16.0')
 	testImplementation('org.testcontainers:postgresql:1.16.0')
-    testImplementation "org.testcontainers:junit-jupiter:1.16.0"
-    implementation ('org.springframework.boot:spring-boot-starter-data-jdbc')
-    testImplementation "org.testcontainers:spock:1.16.0"//no version specified
+        testImplementation "org.testcontainers:junit-jupiter:1.16.0"
+        implementation ('org.springframework.boot:spring-boot-starter-data-jdbc')
+        testImplementation "org.testcontainers:spock:1.16.0"//no version specified
     
 ```
 
