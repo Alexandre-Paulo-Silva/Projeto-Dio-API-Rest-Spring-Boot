@@ -47,6 +47,39 @@ CREATE EXTENSION cube;
 CREATE EXTENSION earthdistance;
 ```
 
+### dependencies
+
+### Build.gradle
+
+
+```shell script
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web:2.5.5'
+	implementation 'com.vladmihalcea:hibernate-types-52:2.9.8'
+	implementation 'org.postgresql:postgresql'
+	implementation 'io.openliberty.features:com.ibm.websphere.appserver.jsfProvider-2.2.0.Container:21.0.0.9'
+	implementation 'io.openliberty.features:com.ibm.websphere.appserver.jsfProvider-2.3.0.Container:21.0.0.9'
+	implementation 'commons-io:commons-io:20030203.000550'
+	implementation 'org.hamcrest:hamcrest-all:1.3'
+	implementation 'io.openliberty.features:jpaContainer-2.2:21.0.0.9'
+	implementation 'io.openliberty.features:jpaContainer-2.1:21.0.0.9'
+	implementation 'org.rnorth.test-containers:test-containers:0.9.5'
+	implementation 'com.yahoo.gondola.containers:containers:0.2.7'
+	implementation 'org.testifyproject.container:container:0.9.3'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation "org.testcontainers:testcontainers:1.16.0"
+	implementation platform('org.testcontainers:testcontainers-bom:1.16.0') //import bom
+	testImplementation('org.testcontainers:postgresql:1.16.0')
+    testImplementation('io.mockk:mockk:1.10.4')
+	testImplementation('org.ninja-squad:springmockk:3.0.1')
+    testImplementation('org.testcontainers:testcontainers:1.16.0')
+	testImplementation('org.testcontainers:postgresql:1.16.0')
+    testImplementation "org.testcontainers:junit-jupiter:1.16.0"
+    implementation ('org.springframework.boot:spring-boot-starter-data-jdbc')
+    testImplementation "org.testcontainers:spock:1.16.0"//no version specified
+```
+
+
 * [Postgres Earth distance](https://www.postgresql.org/docs/current/earthdistance.html)
 * [earthdistance--1.0--1.1.sql](https://github.com/postgres/postgres/blob/master/contrib/earthdistance/earthdistance--1.0--1.1.sql)
 * [OPERATOR <@>](https://github.com/postgres/postgres/blob/master/contrib/earthdistance/earthdistance--1.1.sql)
